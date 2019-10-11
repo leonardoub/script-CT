@@ -30,6 +30,8 @@ dataset_path = '/home/leonardo/Scrivania/TESI/tabelle/CT/tab_outcome_CT_bW50_bis
 
 #BIS: da usare con le CT prese dalla cartella RTnii, 129 features estratte.
 #non c'è bisogno di togliere quelle alla fine perchè le features di shape non stanno in fondo ma all'inizio
+#se usassi le CT che ho trasformato in nii non ci sarebbe stato bisogno della modifica
+
 
 X=pd.read_csv(dataset_path)
 
